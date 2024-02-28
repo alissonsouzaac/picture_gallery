@@ -16,7 +16,7 @@ class ImagePickerButton extends StatelessWidget {
           tooltip: 'Take a picture',
           child: Icon(Icons.camera_alt),
         ),
-        SizedBox(width: 16),
+        SizedBox(width: 20),
         FloatingActionButton(
           onPressed: () => onPressed(ImageSource.gallery),
           tooltip: 'Select from gallery',

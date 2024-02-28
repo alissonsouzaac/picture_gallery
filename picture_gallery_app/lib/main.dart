@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:picture_gallery_app/screens/home_screen.dart';
+import 'package:picture_gallery_app/themes/my_theme_colors.dart';
 
 void main() {
   runApp(MyApp());
@@ -10,9 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Image Picker Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
+      theme: MyTheme,
       home: HomeScreen(),
     );
   }
